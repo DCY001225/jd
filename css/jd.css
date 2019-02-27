@@ -1,0 +1,111 @@
+*{margin:0;padding:0}
+body{background-color:#f0f3ef;}
+a,ul,ol{text-decoration:none;list-style:none;color:#999;}
+/*京东顶部广告图*/
+#j_event{width:100%;height:80px;position:relative;background-color:#eb8056;z-index:30;text-align:center;cursor:pointer;}
+
+/*登录注册介绍导航栏*/
+#shortcut{width:100%;height:30px;position:relative;background:#e3e4e5;z-index:30;}
+#shortcut .w .fl{position:absolute;left:27rem;line-height:30px;font-size:12px;}
+#shortcut .w .fr{position:absolute;display:flex;left:42rem;width:100%;line-height:30px;font-size:12px;}
+#shortcut .w ul>li>a{color:#999;}
+#shortcut .w ul>li>a>span{margin:0px 14px;color:#ccc;}
+#shortcut .w ul>li>a:hover{color:#f10215;}
+#shortcut .w ul.fr>li>div.mobile_static>div.mobile_static_qrcode{width:60px;height:60px;background:url(../img/small/mobile_qrcode.png) no-repeat;border:1px solid #ccc;margin:4px 0 0 -14px;cursor:pointer;}
+
+/*京东标志、搜索框、购物车等*/
+/*#header #logo a>img{width:190px;height:170px;position:absolute;left:12rem;z-index:30;}*/
+#header #logo a>p{width:190px;height:170px;background:url(../img/logo/sprite.head.png) no-repeat;position:absolute;left:12.7rem;top:5rem;z-index:30;}
+
+/*搜索框*/
+#header #search input.s{position:absolute;left:32rem;top:8.5rem;width:540px;height:35px;border:1px solid transparent;outline:none;text-indent:5px;z-index:31;}
+input::-webkit-input-placeholder{color:#aab2bd;}
+#header #search p{width:30px;height:20px;background:url(../img/small/camera.png) no-repeat;position:absolute;left:61rem;top:9.1rem;z-index:31;cursor:pointer;}
+#header #search button{width:50px;height:35px;background-color:#f10215;outline:none;border:1px solid transparent;position:absolute;left:62.8rem;top:137px;z-index:31;cursor:pointer;}
+
+/*购物车*/
+#header #shopping_car>div{width:188px;height:33px;background-color:#fff;color:#f10215;font-size:12.5px;text-align:center;line-height:33px;border:1px solid #ccc;position:absolute;left:69rem;top:8.5rem;z-index:30;cursor:pointer;}
+
+/*关键字*/
+#header #hotwords{position:absolute;font-size:12px;left:32rem;top:11.5rem;}
+#header #hotwords>a{padding-right:7px;}
+#header #hotwords .hw{color:#f10215;}
+#header #hotwords>a:hover{color:#c81623;}
+
+/*导航栏*/
+#header #navitems>ul.nav_items{position:absolute;display:flex;width:100%;left:26.2rem;top:14rem;}
+#header #navitems>ul.nav_items>li>a{display:block;padding:0 13px;font-size:14px;color:#333;}
+#header #navitems>ul.nav_items>li>a>span{color:#ccc;padding-left:22px;}
+#header #navitems>ul.nav_items>li>a:hover{color:#c81623;}
+
+/*全棉时代小图*/
+#header #treasure>a{display:block;width:190px;height:40px;background:url(../img/top_img/wjk3.png) no-repeat;position:absolute;left:75.4rem;top:13rem;}
+
+/*王俊凯全棉时代动态图*/
+#qmsd>a>img{position:absolute;top:16.3rem;left:-3rem;;z-index:30;}
+#qmsd>a .wjk{position:absolute;left:12.6rem;top:16.3rem;display:none;z-index:30;}
+
+/*左侧导航栏*/
+#navbar{position:relative;z-index:9;margin-bottom:30px;top:8.8rem;border:1px solid red;}
+#navbar #grid_navbar{position:relative;z-index:1;width:1190px;height:480px;background-color:#f0f3ef;border:1px solid blue;}
+#navbar #grid_navbar #navbar_col1{width:190px;height:480px;margin-right:10px;}
+#navbar #grid_navbar #navbar_col1 #J_cate{position:relative;z-index:2;left:12.6rem;}
+#navbar #grid_navbar #navbar_col1 #J_cate .cate_menu{padding:12px 0px;height:455px;background-color:#fefefe;overflow:hidden;}
+#navbar #grid_navbar #navbar_col1 #J_cate .cate_menu .cate_menu_list{font-size:14px;padding-left:12px;padding-bottom:6px;}
+#navbar #grid_navbar #navbar_col1 #J_cate .cate_menu .cate_menu_list:hover{background-color:#ccc;}
+#navbar #grid_navbar #navbar_col1 #J_cate .cate_menu .cate_menu_list .cate_menu_item{color:#636363;height:15px;line-height:15px;vertical-align:middle;}
+#navbar #grid_navbar #navbar_col1 #J_cate .cate_menu .cate_menu_list .cate_menu_item:hover{color:#c81623;}
+
+/*轮播图*/
+#navbar #grid_navbar #navbar_col2{position:relative;top:-30rem;left:25rem;width:590px;height:480px;margin-right:10px;overflow-y:hidden;cursor:pointer;}
+#navbar #grid_navbar #navbar_col2 #J_focus{width:590px;height:470px;margin-top:10px;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider .slider_list{position:absolute;top:10px;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider .slider_control_prev{position:absolute;top:45%;left:1px;width:24px;height:50px;z-index:1;background-color:rgba(0,0,0,.2);outline:none;border:0;cursor:pointer;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider .slider_control_next{position:absolute;top:45%;right:1px;width:24px;height:50px;z-index:1;background-color:rgba(0,0,0,.2);outline:none;border:0;cursor:pointer;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider button:hover{background-color:#666;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider .slider_indicators ul{position:absolute;z-index:1;cursor:pointer;top:28rem;left:3rem;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider .slider_indicators ul>li{float:left;border:2px solid #b9beba;border-color:hsla(0,0%,100%,.4);width:6px;height:6px;border-radius:50%;margin-right:8px;}
+#navbar #grid_navbar #navbar_col2 #J_focus #J_focus_main .slider .slider_indicators ul>li:hover{background-color:#fff;box-shadow:0px 0px 5px 3px hsla(0,0%,100%,.4);}
+
+/*三张图片*/
+#navbar #grid_navbar #navbar_col3{position:relative;bottom:59.7rem;left:62.5rem;width:190px;height:480px;z-index:1;}
+#navbar #grid_navbar #navbar_col3 #J_rec .rec_menu .rec_item img{margin-top:5px;cursor:pointer;}
+#navbar #grid_navbar #navbar_col3 #J_rec .rec_menu .rec_item img:hover{opacity:0.8;}
+
+/*京东用户、快报、服务侧栏*/
+#navbar #grid_navbar #navbar_col4{position:relative;bottom:89.5rem;left:75rem;width:190px;height:490px;z-index:1;}
+#navbar #grid_navbar #navbar_col4 #J_user{position:relative;width:190px;height:150px;background-color:#fff;text-align:center;}
+#navbar #grid_navbar #navbar_col4 #J_user .user_inner>a>img{position:absolute;width:55px;height:55px;border-radius:50%;top:-8px;left:60px;border:5px solid #e3e1df;box-shadow:6px 3px 13px 2px #ccc;}
+#navbar #grid_navbar #navbar_col4 #J_user .user_inner>span{font-size:13px;display:inline-block;margin-top:65px;color:#888;}
+#navbar #grid_navbar #navbar_col4 #J_user div.user_inner>div.lg>a{font-size:12px;color:#636363;}
+#navbar #grid_navbar #navbar_col4 #J_user div.user_inner>div.lg>a:hover{color:#c81623;}
+#navbar #grid_navbar #navbar_col4 #J_user div.user_inner>div.new>a{display:inline-block;line-height:25px;font-size:12px;color:#e43f3b;text-align:center;margin-top:10px;}
+#navbar #grid_navbar #navbar_col4 #J_user div.user_inner>div.new .left{background:#fff;margin:0 5px;box-shadow:5px 5px 12px 3px #e3e1df;padding:0px 10px;border-radius:13px;}
+#navbar #grid_navbar #navbar_col4 #J_user div.user_inner>div.new .right{background-color:#363634;color:#e5d790;box-shadow:5px 5px 12px 3px #e3e1df;padding:0px 8px;border-radius:13px;}
+#navbar #grid_navbar #navbar_col4 #J_user div.user_inner>div.new a:hover{background-color:#e01222;color:#fff;}
+
+#navbar #grid_navbar #navbar_col4 #J_news{position:relative;width:190px;height:130px;background-color:#fff;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item div.new_kb:before{content:'';display:table;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item div.new_kb h5{margin:10px 0 0 10px;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item div.new_kb a{font-size:12px;position:absolute;left:140px;top:10px;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item div.new_kb a:hover{color:#636363;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item .new_list{margin-top:8px;padding:0 15px;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item .new_list>li>a{font-size:12px;color:#666;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item .new_list>li>a>span{display:inline-block;background-color:#90b0c6;color:#fff;font-size:12px;text-align:center;width:35px;height:16px;margin-right:6px;border-radius:2px;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item .new_list>li>a>span.news_2{background-color:#e0b95a;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item .new_list>li>a>span.news_3{background-color:#e47f7f;}
+#navbar #grid_navbar #navbar_col4 #J_news #news_item .new_list>li>a:hover{color:#c81623;}
+hr{width:80%;position:absolute;left:18px;top:140px;z-index:1;}
+
+#navbar #grid_navbar #navbar_col4 #J_service{position:relative;width:190px;height:190px;background-color:#fff;}
+#navbar #grid_navbar #navbar_col4 #J_service #service_list{}
+
+
+
+
+
+
+
+
+
+
