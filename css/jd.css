@@ -1,14 +1,14 @@
 *{margin:0;padding:0}
 body{background-color:#f0f3ef;}
 a,ul,ol{text-decoration:none;list-style:none;color:#999;}
-div.mod_container{position:relative;margin:0 auto;}
+div.mod_container{border:2px solid blue;position:relative;width:1190px;margin:0 auto;}
 /*————京东顶部广告图————*/
 #j_event{width:100%;height:80px;position:relative;background-color:#eb8056;z-index:30;text-align:center;cursor:pointer;}
 
 /*————登录注册介绍导航栏————*/
 #shortcut{width:100%;height:30px;position:relative;background:#e3e4e5;z-index:30;}
-#shortcut .w .fl{position:absolute;left:27rem;line-height:30px;font-size:12px;}
-#shortcut .w .fr{position:absolute;display:flex;left:42rem;width:100%;line-height:30px;font-size:12px;}
+#shortcut .w .fl{position:absolute;left:13rem;line-height:30px;font-size:12px;}
+#shortcut .w .fr{position:absolute;display:flex;left:28rem;width:100%;line-height:30px;font-size:12px;}
 #shortcut .w ul>li>a{color:#999;}
 #shortcut .w ul>li>a>span{margin:0px 14px;color:#ccc;}
 #shortcut .w ul>li>a:hover{color:#f10215;}
@@ -16,38 +16,38 @@ div.mod_container{position:relative;margin:0 auto;}
 
 /*————京东标志、搜索框、购物车等————*/
 /*#header #logo a>img{width:190px;height:170px;position:absolute;left:12rem;z-index:30;}*/
-#header #logo a>p{width:190px;height:170px;background:url(../img/logo/sprite.head.png) no-repeat;position:absolute;left:12.7rem;top:5rem;z-index:30;}
+#header #logo a>p{width:190px;height:170px;background:url(../img/logo/sprite.head.png) no-repeat;position:absolute;top:5rem;z-index:30;}
 
 /*————搜索框————*/
-#header #search input.s{position:absolute;left:32rem;top:8.5rem;width:540px;height:35px;border:1px solid transparent;outline:none;text-indent:5px;z-index:31;}
+#header #search input.s{position:absolute;left:20rem;top:8.5rem;width:540px;height:35px;border:1px solid transparent;outline:none;text-indent:5px;z-index:31;}
 input::-webkit-input-placeholder{color:#aab2bd;}
-#header #search p{width:30px;height:20px;background:url(../img/small/camera.png) no-repeat;position:absolute;left:61rem;top:9.1rem;z-index:31;cursor:pointer;}
-#header #search button{width:50px;height:35px;background-color:#f10215;outline:none;border:1px solid transparent;position:absolute;left:62.8rem;top:137px;z-index:31;cursor:pointer;}
+#header #search p{width:30px;height:20px;background:url(../img/small/camera.png) no-repeat;position:absolute;left:49rem;top:9.1rem;z-index:31;cursor:pointer;}
+#header #search button{width:50px;height:35px;background-color:#f10215;outline:none;border:1px solid transparent;position:absolute;left:50.8rem;top:137px;z-index:31;cursor:pointer;}
 
 /*————购物车————*/
-#header #shopping_car>div{width:188px;height:33px;background-color:#fff;color:#f10215;font-size:12.5px;text-align:center;line-height:33px;border:1px solid #ccc;position:absolute;left:69rem;top:8.5rem;z-index:30;cursor:pointer;}
+#header #shopping_car>div{width:188px;height:33px;background-color:#fff;color:#f10215;font-size:12.5px;text-align:center;line-height:33px;border:1px solid #ccc;position:absolute;left:56rem;top:8.5rem;z-index:30;cursor:pointer;}
 
 /*————关键字————*/
-#header #hotwords{position:absolute;font-size:12px;left:32rem;top:11.5rem;}
+#header #hotwords{position:absolute;font-size:12px;left:20rem;top:11.5rem;}
 #header #hotwords>a{padding-right:7px;}
 #header #hotwords .hw{color:#f10215;}
 #header #hotwords>a:hover{color:#c81623;}
 
 /*————导航栏————*/
-#header #navitems>ul.nav_items{position:absolute;display:flex;width:100%;left:26.2rem;top:14rem;}
+#header #navitems>ul.nav_items{position:absolute;display:flex;width:100%;left:14.2rem;top:14rem;}
 #header #navitems>ul.nav_items>li>a{display:block;padding:0 13px;font-size:14px;color:#333;}
 #header #navitems>ul.nav_items>li>a>span{color:#ccc;padding-left:22px;}
 #header #navitems>ul.nav_items>li>a:hover{color:#c81623;}
 
 /*————全棉时代小图————*/
-#header #treasure>a{display:block;width:190px;height:40px;background:url(../img/top_img/wjk3.png) no-repeat;position:absolute;left:75.4rem;top:13rem;}
+#header #treasure>a{display:block;width:190px;height:40px;background:url(../img/top_img/wjk3.png) no-repeat;position:absolute;left:62.4rem;top:13rem;}
 
 /*————王俊凯全棉时代动态图————*/
-#qmsd>a>img{position:absolute;top:16.3rem;left:-3rem;;z-index:30;}
-#qmsd>a .wjk{position:absolute;left:12.6rem;top:16.3rem;display:none;z-index:30;}
+#qmsd>a>img{position:absolute;top:16.3rem;left:-15.5rem;;z-index:30;}
+#qmsd>a .wjk{position:absolute;left:0;top:16.3rem;display:none;z-index:30;}
 
 /*————左侧导航栏————*/
-#navbar{position:relative;z-index:9;margin-bottom:30px;top:8.8rem;border:1px solid red;}
+#navbar{position:relative;left:-12.6rem;z-index:9;margin-bottom:30px;top:8.8rem;border:1px solid red;}
 #navbar #grid_navbar{position:relative;z-index:1;width:1190px;height:480px;background-color:#f0f3ef;border:1px solid blue;}
 #navbar #grid_navbar #navbar_col1{width:190px;height:480px;margin-right:10px;}
 #navbar #grid_navbar #navbar_col1 #J_cate{position:relative;z-index:2;left:12.6rem;}
@@ -110,7 +110,7 @@ hr{width:80%;position:absolute;left:18px;top:140px;z-index:1;}
 /*————floors————*/
 
 /*————floors-1：秒杀计时器、四张精选、精选小轮播————*/
-#floors{border:1px solid red;margin:0 auto;width:1190px;height:100%;position:relative;top:9rem;left:2rem;}
+#floors{border:1px solid red;margin:0 auto;width:1190px;height:100%;position:relative;top:9rem;}
 #floors:after{content:'';display:block;clear:both;}
 #floors #floor1:after{content:'';display:block;clear:both;}
 #floors #floor1{border:1px solid blue;position:relative;margin:0 auto;}
