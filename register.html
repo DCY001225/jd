@@ -6,16 +6,52 @@
     <style>
         *{padding:0;margin:0;}
         a,ul,ol{text-decoration:none;list-style:none;color:#999;}
-        body{font: 12px/150% Arial,Verdana,"\5b8b\4f53";color:#666;background:#fff;}
+        body{font:12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif}
         div#register:after{content:'';display:block;clear:both;}
-        div#register{border:2px solid cornflowerblue;position:relative;width:100%;height:850px;}
+        div#register{position:relative;width:100%;height:850px;}
         div#register>#head:after{content:'';display:block;clear:both;}
-        div#register>#head{position:relative;height:60px;padding:15px 0;}
+        div#register>#head{position:relative;height:60px;padding:15px 0;box-shadow:0px 0px 15px 1px #ccc;}
         div#register>#head>div.logo{position:absolute;left:20rem;}
-        div#register>#head>div.logo>span{position:absolute;left:12rem;top:1rem;width:110px;height:40px;background:url(//misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;}
-        div#register>#head>a>b{position:absolute;right:21rem;top:4rem;width:18px;height:14px;background:url(//misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png) no-repeat;}
-        div#register>#head>a>span{position:absolute;right:13rem;top:58px;}
+        div#register>#head>div.logo>span{display:block;font-size:24px;color:#333;margin:-35px 0 0 195px;}
+        div#register>#head>a>span.cou{position:absolute;font-size:16px;right:28rem;top:58px;}
+        div#register>#head>a>span.log{position:absolute;font-size:16px;right:24rem;top:58px;color:#c81623;}
         div#register>#head>a>span:hover{color:#E4393C;}
+        div#register>#body:after{content:'';display:block;clear:both;}
+        div#register>#body{position:relative;width:100%;height:430px;top:6rem;}
+        div#register>#body>#body_inner:before{content:'';display:table;clear:both;}
+        div#register>#body>#body_inner{width:450px;height:430px;margin:0 auto;}
+        div#register>#body>#body_inner>div.step{width:450px;position:absolute;}
+        div#register>#body>#body_inner>div.step>div.step_inner{position:absolute;height:60px;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.one{width:66px;height:55px;font-size:12px;line-height:24px;text-align:center;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.one>span{position:absolute;left:22px;width:24px;font-weight:bold;height:24px;color:#fff;background:url(//misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat 0 -200px;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.one>p{color:#3b4;padding-top:30px;}
+        div#register>#body>#body_inner>div.step>div.step_inner>.span1{position:absolute;top:7px;left:60px;width:124px;height:10px;background:url(//misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat 0 -100px;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.two{width:90px;height:55px;font-size:12px;line-height:24px;text-align:center;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.two>span{position:absolute;top:0;left:12.5rem;font-weight:bold;width:24px;height:24px;color:#ccc;background:url(//misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat -45px -200px;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.two>p{width:80px;color:#999;position:absolute;left:173px;top:30px;}
+        div#register>#body>#body_inner>div.step>div.step_inner>div.three{width:66px;height:55px;position:absolute;left:190px;top:0;}
+        div#register>#body>#body_inner>div.step>div.step_inner>.span2{position:absolute;top:7px;left:245px;width:124px;height:10px;background:url(//misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat 0 -100px;}
+        div#register>#body>#body_inner>div.form{position:relative;width:400px;height:320px;margin:105px 25px;}
+        div#register>#body>#body_inner>div.form>div.form1{width:398px;height:52px;margin-bottom:40px;}
+        div#register>#body>#body_inner>div.form>div.form1>div.label{position:absolute;width:107px;height:52px;text-indent:15px;color:#333;line-height:52px;font-size:14px;border:1px solid #bdbdbd;cursor:pointer;}
+        div#register>#body>#body_inner>div.form>div.form1>form>input{width:290px;height:52px;text-indent:20px;border:1px solid #bdbdbd;margin-left:108px;outline:none;}
+        input::-webkit-input-placeholder{color:#ccc;}
+        div#register>#body>#body_inner>div.form>div.form2{width:398px;height:52px;text-indent:140px;border:1px solid #bdbdbd;margin-bottom:50px;cursor:pointer;}
+        div#register>#body>#body_inner>div.form>div.form2>span{font-size:14px;color:#333;line-height:52px;}
+        div#register>#body>#body_inner>div.form>div.form3{width:398px;height:52px;text-indent:180px;background:#e2231a;margin-bottom:30px;cursor:pointer;}
+        div#register>#body>#body_inner>div.form>div.form3>span{font-size:14px;color:#fff;line-height:52px;}
+        div#register>#body>#body_inner>div.form>div.form3:hover{background:#c81623;}
+        div#register>#body>#body_inner>div.form>div.form4{width:398px;height:30px;}
+        div#register>#body>#body_inner>div.form>div.form4>a>i{position:absolute;width:24px;height:24px;background:url(//misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) no-repeat 0 -161px;}
+        div#register>#body>#body_inner>div.form>div.form4>a>span{display:inline-block;margin:3px 0 0 35px;font-size:13px;color:#333;}
+        div#register>#body>#body_inner>div.form>div.form4>a:nth-child(2){float:right;}
+        div#register>#body>#body_inner>div.form>div.form4>a:nth-child(2)>i{background-position:-40px -162px;}
+        div#register>#body>#body_inner>div.form>div.form4>a>span:hover{color:#c81623;}
+        div#register>#footer{position:relative;top:270px;}
+        div#register>#footer>div.footer_inner{position:absolute;width:100%;padding:0 300px;}
+        div#register>#footer>div.footer_inner>a{color:#999;padding:10px 10px;}
+        div#register>#footer>div.footer_inner>a:hover{color:#b61d1d;}
+        div#register>#footer>span{position:absolute;top:40px;padding:0 600px;color:#999;}
     </style>
 </head>
 <body>
@@ -23,15 +59,75 @@
         <div id="head">
             <div class="logo">
                 <a href="index.html"><img src="img/login/logo.png"/></a>
-                <span></span>
+                <span>欢迎注册</span>
             </div>
             <a href="javascript:;">
-                <span>已有账号？</span>
-                <span>请登录</span>
+                <span class="cou">已有账号？</span>
+                <span class="log">请登录></span>
             </a>
         </div>
-        <div id="body"></div>
-        <div id="footer"></div>
+        <div id="body">
+            <div id="body_inner">
+                <div class="step">
+                    <div class="step_inner">
+                        <div class="one">
+                            <span>1</span>
+                            <p>验证手机号</p>
+                        </div>
+                        <span class="span1"></span>
+                        <div class="two">
+                            <span>2</span>
+                            <p>填写账号信息</p>
+                        </div>
+                        <span class="span2"></span>
+                        <div class="three two">
+                            <span>3</span>
+                            <p>注册成功</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="form1">
+                        <div class="label">中国 0086 v</div>
+                        <form action="">
+                            <input type="text" placeholder="建议使用常用手机号"/>
+                        </form>
+                    </div>
+                    <div class="form2">
+                        <span>点击按钮进行验证</span>
+                    </div>
+                    <div class="form3">
+                        <span>下一步</span>
+                    </div>
+                    <div class="form4">
+                        <a href="javascript:;">
+                            <i></i>
+                            <span>企业用户注册</span>
+                        </a>
+                        <a href="javascript:;">
+                            <i></i>
+                            <span>国际站注册</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer_inner">
+                <a href="javascript:;">关于我们</a><span> |</span>
+                <a href="javascript:;">联系我们</a><span> |</span>
+                <a href="javascript:;">人才招聘</a><span> |</span>
+                <a href="javascript:;">商家入驻</a><span> |</span>
+                <a href="javascript:;">广告服务</a><span> |</span>
+                <a href="javascript:;">手机京东</a><span> |</span>
+                <a href="javascript:;">友情链接</a><span> |</span>
+                <a href="javascript:;">销售联盟</a><span> |</span>
+                <a href="javascript:;">京东社区</a><span> |</span>
+                <a href="javascript:;">京东公益</a><span> |</span>
+                <a href="javascript:;">English Site</a>
+            </div>
+            <span>Copyright © 2004-2019  京东JD.com 版权所有</span>
+        </div>
     </div>
 </body>
 </html>
